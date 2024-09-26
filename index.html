@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+
+    <!-- NOTE: CSS Link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- NOTE: Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- NOTE: Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@100..900&family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&family=Sevillana&display=swap"
+        rel="stylesheet">
+
+    <!-- NOTE: Animate Style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- NOTE: AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navbar -->
+        <nav>
+            <!-- Logo -->
+            <img class="logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTitXlbzug9KqCHaOhq61rZaOEaZet5ufnOSQ&s"
+                alt="no image">
+            <!-- Links -->
+            <ul>
+                <li class="list-items"><a class="list" href="#home-content">HOME</a></li>
+                <li class="list-items"><a class="list" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="list" href="#skill">SKILL</a></li>
+                <li class="list-items"><a class="list" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Home -->
+        <section id="home">
+            <!-- Home Content -->
+            <div class="home-content">
+                <h1 class="animate__animated animate__fadeInDown" id="user-name">I'm Özge <span id="lname">Törer</span></h1>
+                <p id="user-details">This is my official portfolio website to describe all
+                    <br>
+                    Details and work experience in web development
+                </p>
+                <a id="download" href="" download>Download CV</a>
+            </div>
+            <!-- Home Image -->
+            <div class="home-image">
+                <!-- Shape -->
+                <img class="group1" id="shape" src="./Images/bg png.png" alt="">
+                <!-- Girl -->
+                <img class="group1" id="girl" src="./Images/girl png.png" alt="">
+            </div>
+        </section>
+
+
+        <!-- About -->
+        <section id="about">
+            <div class="section-head">
+                <h2 id="main-head">About Me</h2>
+                <span id="sub-head">Introduction</span>
+            </div>
+
+            <div class="about-body">
+                <div data-aos="fade-right" class="about-image">
+                    <img class="img1"
+                        src="https://media.istockphoto.com/id/1306190794/vector/programmer-girl-working-on-the-laptop-programming-and-engineering-concept.jpg?s=612x612&w=0&k=20&c=SgBoKGaZRVOQRcKSR_ZRo46EQLlEEN_Jkq6NSd8d3H0="
+                        alt="no image">
+                </div>
+                <div class="about-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum fugit sint tempora aut
+                        impedit, vitae cupiditate debitis amet facilis architecto obcaecati, quod corrupti delectus
+                        dolorum itaque eum praesentium quas dolorem.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum fugit sint tempora aut
+                        impedit, vitae cupiditate debitis amet facilis architecto obcaecati, quod corrupti delectus
+                        dolorum itaque eum praesentium quas dolorem.
+                    </p>
+                    <div class="information">
+                        <div class="info-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Özge Törer</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9876543210</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>ozgetorer7@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skill -->
+        <section id="skill">
+            <div class="section-head">
+                <h2 id="main-head">Skills</h2>
+                <span id="sub-head">My Skills</span>
+            </div>
+            <div class="skill-content">
+                <div class="progress-bar">
+                    <!-- Progress Bar -->
+                    <div class="bar">
+                            <h3 class="main-head">HTML</h3>
+                            <span class="bar-percentage">89%</span>
+                            <div class="base-bar"></div>
+                            <div  data-aos="zoom-in-right" class="base-bar html-bar"></div>
+                    </div>
+
+                    <div class="bar">
+                            <h3 class="main-head">CSS</h3>
+                            <span class="bar-percentage">84%</span>
+                            <div class="base-bar"></div>
+                            <div  data-aos="zoom-in-right" class="base-bar css-bar"></div>
+                    </div>
+
+                    <div class="bar">
+                            <h3 class="main-head">JS</h3>
+                            <span class="bar-percentage">78%</span>
+                            <div class="base-bar"></div>
+                            <div  data-aos="zoom-in-right" class="base-bar js-bar"></div>
+                    </div>
+
+                    <div class="bar">
+                            <h3 class="main-head">REACT</h3>
+                            <span class="bar-percentage">80%</span>
+                            <div class="base-bar"></div>
+                            <div  data-aos="zoom-in-right" class="base-bar react-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-img">
+                    <img data-aos="fade-left" class="skill-" src="https://cdn-icons-png.flaticon.com/512/4216/4216019.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+         <section id="contact">
+            <div class="section-head">
+                <h2 id="main-head">Contact</h2>
+                <span id="sub-head">My Contacts</span>
+            </div>
+            <div class="icon-collection">
+                <!-- NOTE: LinkdIn -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/feed/" target="_blank"> <i class="fa-brands fa-linkedin brands"></i> </a>
+                 </div>
+                <!-- NOTE: Git hub -->
+                <div class="icon">
+                    <a href="https://www.github.com" target="_blank"> <i class="fa-brands fa-square-github brands"></i> </a>
+                 </div>
+                <!-- NOTE: X -->
+                <div class="icon">
+                    <a href="https://www.x.com" target="_blank"> <i class="fa-brands fa-square-x-twitter brands"></i> </a>
+                 </div>
+                <!-- NOTE: Facebook -->
+                <div class="icon">
+                    <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-square-facebook brands"></i> </a>
+                 </div>
+                <!-- NOTE: Mail -->
+                <div class="icon">
+                    <a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"> <i class="fa-solid fa-square-envelope brands"></i> </a>
+                 </div>
+            </div>
+         </section>
+
+
+        <!-- Footer -->
+         <footer>
+            <p id="copyright">&copy;My portfolio website - June 2024, All RightsRerved to &reg;Özge Törer</p>
+            <div class="icon up-arrow">
+                <a href="#container"> <i class="fa-solid fa-angle-up brands"></i> </a>
+             </div>
+         </footer>
+
+    </div>
+</body>
+
+<!-- NOTE: AOS Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
